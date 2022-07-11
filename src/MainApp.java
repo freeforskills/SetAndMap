@@ -13,7 +13,8 @@ public class MainApp {
 
         System.out.println("Добавить массив в СЭТ: "+addMsv(msv, sS));
         System.out.println("Обработка массива : "+checkData(msv, sS, sM));
-        System.out.println("Вывод результатов на экран: "+printData(sM));
+        System.out.println("Массив уникальных слов : "+Arrays.toString(sS.toArray()));
+        System.out.println("Подсчет количества слов: "+printData(sM));
 
     }
 
